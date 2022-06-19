@@ -1,0 +1,134 @@
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.how {
+    margin-bottom: 50px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row h2 {
+    font-size: 30px;
+}
+.row img {
+    width: 98%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.row p {
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+}
+.process {
+    text-align: center;
+    background-color: red;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px;
+    width: 0%;
+    font-size: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+.step {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+}
+.reg {
+    animation-name: process;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+.one {
+    animation-name: step;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    width: 0%;
+    font-size: 0px;
+}
+
+.med {
+    animation-name: process;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+}
+.two {
+    animation-name: step;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+    width: 0%;
+    font-size: 0px;
+}
+
+.don {
+    animation-name: process;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+}
+.three {
+    animation-name: step;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+    width: 0%;
+    font-size: 0px;
+}
+
+.resh {
+    animation-name: process;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 1.7s;
+    animation-fill-mode: forwards;
+}
+.four {
+    animation-name: step;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 1.7s;
+    animation-fill-mode: forwards;
+    width: 0%;
+    font-size: 0px;
+}
+
+@keyframes step {
+    0% {
+        width: 0%;
+        font-size: 0px;
+    }
+    100% {
+        width: 30%;
+        font-size: 200px;
+    }
+}
+
+@keyframes process {
+    0% {
+        width: 0%;
+        font-size: 0px;
+    }
+    100% {
+        width: 30%;
+        font-size: 16px;
+        height: inherit;
+    }
+}
